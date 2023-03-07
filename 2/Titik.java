@@ -8,33 +8,34 @@
 
 
 
-class Titik{
-	double absis;
-	double ordinat;
-	static int counterTitik;
+public class Titik{
+	// Setiap Atribut memiliki akses Private
+	private double absis;
+	private double ordinat;
+	private static int counterTitik;
 	void Titik (){
 		counterTitik++;
 		absis = 0;
 		ordinat = 0;
 	}
-	
-	void setAbsis(double a){
+	// Setiap Atribut memiliki akses Public
+	public void setAbsis(double a){
 		absis = a;
 	}
 	
-	void setOrdinat (double o){
+	public void setOrdinat (double o){
 		ordinat = o;
 	}
 	
-	double getAbsis(){
+	public double getAbsis(){
 		return absis;
 	}
 	
-	double getOrdinat(){
+	public double getOrdinat(){
 		return ordinat;
 	}
 	
-	int getCounterTitik(){
+	public int getCounterTitik(){
 		return counterTitik;
 	}
 }
