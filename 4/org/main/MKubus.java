@@ -6,15 +6,15 @@
 
 package org.main;
 
-import org.bangunruang.*;
+import org.bangunruang.Kubus;
 import org.bangundatar.Persegi;
 
 
 
 public class MKubus{
 	public static void main(String[] args) {
-		Persegi prsg = new Persegi(10,6);
-		Kubus kubus = new Kubus(prsg);
+		Persegi prsg = new Persegi(10,6); // ubah menjadi class BujurSangkar
+		Kubus kubus = new Kubus(prsg); // Ubah nama variable sesuai dengan aturan code convention
 		//prsg.printInfo();
 		//Kubus.printInfo();
 		System.out.println("Luas Persegi : "+kubus.hitungLuasAlas());
