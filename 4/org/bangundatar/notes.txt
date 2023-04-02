@@ -1,0 +1,1 @@
+Ubah file Persegi.java menjadi BujurSangkar.java
